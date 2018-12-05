@@ -18,7 +18,6 @@ namespace ContosoUniversity.Pages.Students
             _context = context;
         }
 
-
         public string NameSort { get; set; }
         public string DateSort { get; set; }
         public string CurrentFilter { get; set; }
