@@ -5,12 +5,14 @@
     ViewData["Title"] = "Student Body Statistics";
 }
 
-<h2>Student Body Statistics</h2>
-
+<h2>Contoso University Student Body Statistics</h2>
 <table>
     <tr>
         <th>
             Enrollment Date
+        </th>
+        <th>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </th>
         <th>
             Students
@@ -24,8 +26,15 @@
                 @Html.DisplayFor(modelItem => item.EnrollmentDate)
             </td>
             <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
                 @item.StudentCount
             </td>
         </tr>
     }
 </table>
+<hr style="border-bottom: 1px solid black;" />
+<h2>Site Development</h2>
+<p>Contoso University's website created with ASP.NET and Entity Framework. Site creator details are below.</p>
+<p>Alex Nielson | agnielson@outlook.com | 385-221-2009 | 1303 S. Slate Canyon Drive, Provo UT 84606 </p>
